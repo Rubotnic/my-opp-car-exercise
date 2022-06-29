@@ -4,8 +4,8 @@ import se.lexicon.Author.Author;
 import se.lexicon.Author.Book;
 
 import se.lexicon.Car.Car;
-import se.lexicon.Rectangle.Rectangle;
 
+import se.lexicon.Rectangle.Rectangle;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -22,7 +22,6 @@ public class Main {
 
         Main authorsBooks = new Main();
         authorsBooks.bookAuthor();
-
     }
 
 
@@ -143,6 +142,5 @@ public class Main {
         bookOnelist.add(authorStefan.getName());
 
         System.out.println(bookOnelist);
-
     }
 }

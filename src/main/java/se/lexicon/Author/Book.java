@@ -39,7 +39,6 @@ public class Book {
 //    public String bookInfo(){
 //        return "Book title: " + this.title + "Isbn: " + this.isbn + "Author:" + author;
 
-
     @Override
     public String toString() {
         return "Book{" +

@@ -38,8 +38,6 @@ public class Author {
 //    public String authorInfo() {
 //        return "Full name: " + name + "Birth year: " + birthYear + "Books:" + Arrays.toString(allBooks);
 
-
-
     @Override
     public String toString() {
         return "Author{" +
@@ -48,7 +46,6 @@ public class Author {
                 ", allBooks=" + Arrays.toString(allBooks) +
                 '}';
     }
-
     public void setAllauthors(Author[] bookAurthors) {
     }
 }
